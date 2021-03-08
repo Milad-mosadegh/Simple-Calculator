@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(46, 46, 46);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -22,11 +22,27 @@ body{
 .btn:hover{
   transition: 0.5s;
   transform: translateY(-5px);
-  box-shadow: 4px 4px 15px rgba(241, 215, 64, 0.747);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.459);
 
 }
 
 .br{
   border-radius: 20px;
-  box-shadow: 2px 7px 105px rgba(241, 215, 64, 0.747);
+  box-shadow: 2px 7px 105px rgba(0, 0, 0, 0.747);
+}
+
+@media(max-width:375px){
+    .btn{
+      font-size: 20px;
+      margin: 10px;
+    }
+    h1{
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .result{
+      padding: px;
+      font-size: 5px;
+    }
 }
