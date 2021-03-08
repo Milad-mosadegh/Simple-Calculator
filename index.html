@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="container  p-5  br">
+    <h1 class="text-center text-light font-weight-bolder">A Simple look of Calculator</h1>
+    <form class="add-number d-flex">
+      <input id="n1" type="text" class="w-50 p-3 m-5" required>
+      <input id="n2" type="text" class="w-50 p-3 m-5" required>
+    </form>
+
+    <div class="container d-flex justify-content-center mb-5">
+      <button type="submit" id="plus" class="w-25 btn btn-outline-danger">+</button>
+      <button type="submit" id="minus" class="w-25 btn btn-outline-info">-</button>
+      <button type="submit" id="multi" class="w-25 btn btn-outline-success">*</button>
+      <button type="submit" id="percentage" class="w-25 btn btn-outline-primary">/</button>
+    </div>
+
+    <div class="result">
+      <h3 id="result" class="rounded shadow text-center text-dark border bg-light">0</h3>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <script src="./assignment.js"></script>
+</body>
+
+</html>
