@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0 ;
+  
 }
 
 body{
@@ -48,5 +49,6 @@ body{
 
     h2{
       font-size: 50px;
+      font-family: 'Fredoka One', cursive;
     }
 }

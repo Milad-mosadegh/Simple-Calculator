@@ -52,7 +52,7 @@ plusBtn.addEventListener("click", function () {
     if (n1.value === "" || n2.value === "") {
         alert("please fill all")
     } else {
-        result.innerHTML = `Result of ${n1.value} plus ${n2.value} is: \n \n <h1>${plus(n1, n2)}</h1>`
+        result.innerHTML = `Result of ${n1.value} plus ${n2.value} is: \n \n <h2>${plus(n1, n2)}</h2>`
         n1.value = ""
         n2.value = ""
     }
@@ -62,27 +62,32 @@ plusBtn.addEventListener("click", function () {
 minusBtn.addEventListener("click", function () {
     if (n1.value === "" || n2.value === "") {
         alert("please fill all")
+    } else {
+
+        result.innerHTML = `Result of ${n1.value} minus ${n2.value} is: \n \n <h2>${minus(n1, n2)}</h2>`
+        n1.value = ""
+        n2.value = ""
     }
-    result.innerHTML = `Result of ${n1.value} minus ${n2.value} is: \n \n <h1>${minus(n1, n2)}</h1>`
-    n1.value = ""
-    n2.value = ""
 })
 
 multiBtn.addEventListener("click", function () {
     if (n1.value === "" || n2.value === "") {
         alert("please fill all")
+    } else {
+
+        result.innerHTML = `Result of ${n1.value} multiply ${n2.value} is: \n \n <h2>${multi(n1, n2)}</h2>`
+        n1.value = ""
+        n2.value = ""
     }
-    result.innerHTML = `Result of ${n1.value} multiply ${n2.value} is: \n \n <h2>${multi(n1, n2)}</h2>`
-    n1.value = ""
-    n2.value = ""
 })
 
 
 percentageBtn.addEventListener("click", function () {
     if (n1.value === "" || n2.value === "") {
         alert("please fill all")
+    } else {
+        result.innerHTML = `Result of ${n1.value} percentage ${n2.value} is: \n \n <h2>${percentage(n1, n2)}</h2>`
+        n1.value = ""
+        n2.value = ""
     }
-    result.innerHTML = `Result of ${n1.value} percentage ${n2.value} is: \n \n <h1>${percentage(n1, n2)}</h1>`
-    n1.value = ""
-    n2.value = ""
 })
